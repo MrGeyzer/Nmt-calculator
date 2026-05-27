@@ -13,9 +13,11 @@
 - `unit_output.pas` – форматований вивід результатів.
   - `procedure PrintResults(arr: TArrayOfSubject; n: Integer; finalScore: Real);`
 
+![Архітектура](nmt_architecture.svg)
+
 ## Розподіл ролей
-- **Тімлід**: main.pas (головна програма та інтеграція)
+- **Тімлід**: unit_algo.pas (алгоритм обчислення)
 - **Розробник 1**: unit_data.pas (введення даних)
-- **Розробник 2**: unit_algo.pas (алгоритм обчислення)
+- **Розробник 2**: main.pas (головна програма та інтеграція)
 - **Розробник 3**: unit_output.pas (вивід результату)
 - **Документатор**: README.md, diagram.drawio
